@@ -5851,6 +5851,7 @@ animador
 animadversión
 animadvertencia
 animal
+animales
 animalada
 animalaje
 animalario
@@ -7279,6 +7280,7 @@ arbitrero
 arbitriano
 arbitrio
 arbitrista
+árbol
 arbolado
 arboladura
 arbolar
@@ -13967,6 +13969,8 @@ cahíz
 cai
 caico
 caicobé
+caida
+caída
 caigua
 caiguá
 caima
@@ -24335,6 +24339,7 @@ cumiche
 cuminol
 cumpa
 cumpleaños
+cumplida
 cumplidamente
 cumplidero
 cumplido
@@ -33921,6 +33926,7 @@ erío
 erístico
 erógeno
 erótico
+es
 esa
 esbarar
 esbardo
@@ -44449,6 +44455,7 @@ importación
 importador
 importancia
 importante
+importantes
 importantemente
 importar
 importe
@@ -69150,6 +69157,7 @@ saldista
 saldo
 saldorija
 saldubense
+sale
 salea
 salearse
 saledizo
@@ -77399,6 +77407,7 @@ umbrátil
 umbrío
 umero
 un
+una
 unalbo
 unamuniano
 unanimidad
