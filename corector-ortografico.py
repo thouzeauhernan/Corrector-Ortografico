@@ -1,8 +1,8 @@
 import os
 import re
 import string
-
-
+#"/home/hernan/Documentos/Trabajos_Independientes/BaiancaLucca/Corrector-Ortografico/listado-general.txt"
+#"/home/hernan/Documentos/Trabajos_Independientes/BaiancaLucca/Corrector-Ortografico/texto-prueba.txt"
 # Esta función toma una línea de texto y devuelve
 # una lista de las palabras en la línea.
 def separar_linea(linea):
@@ -27,27 +27,30 @@ def lectura_path():
     dir_text=input()
     dic=os.path.isfile(dir_dic)
     text=os.path.isfile(dir_text)
-    while(dic and text):
+    while((not dic) and (not text)):
         if((dic==False) and (text==False)):
             print('ninguna de las rutas es correcta')
             print('vuelva a ingresar la ruta del dicionario \n')
             dir_dic=input()
             print('vuelva a ingresar la ruta del texto a corregir \n')
             dir_text=input()
+            dic=os.path.isfile(dir_dic)
+            text=os.path.isfile(dir_text)
         else:
             if((dic==True) and (text==False)):
                 print('la ruta de diccionario es correcta pero la del texto no')
                 print('vuelva a ingresar la ruta del texto a corregir \n')
                 dir_text=input()
+                text=os.path.isfile(dir_text)
             else:
                 print('la ruta de diccionario es no correcta pero la del texto si')
                 print('vuelva a ingresar la ruta del dicionario \n')
                 dir_dic=input()
+                dic=os.path.isfile(dir_dic)
     return(dir_dic,dir_text)
 
 
-
-archivos=lectura_path()
+archivos=(lectura_path())
 file = open(archivos[0])
 dictionario_lista= []
 for linea in file:
